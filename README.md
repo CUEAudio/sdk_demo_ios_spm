@@ -1,5 +1,7 @@
 # CUELiveDemoSPM
 
+Here are the instruction how to add CUELive-SPM package to your project. Following these steps one-by-one you will make your own project similar to this demo-project.
+
 ## Add the CUELive SDK
 
 Add the CUELive framework using the Package manager in Xcode. Use the URL: `https://github.com/CUEAudio/CUELive-SPM.git`
@@ -39,7 +41,7 @@ Next add the `-all_load` linker flag to the build target. Look for "Other linker
 
 ![](images/xcode-5.png)
 
-## Set up description keys for Camera/Microphone/Library access
+## Set up description keys for Camera/Microphone/Photo library access
 
 Please write description texts for the following Info.plist keys:
 
@@ -67,3 +69,19 @@ Please keep in mind:
 Finally your dependencies section should look like this:
  
 ![](images/xcode-lottie2.png)
+
+## How to call CUELive library from your code
+
+First add import-directive to your code file
+```swift
+import CUELive
+```
+
+Then add the UIButton object with the following tap handler
+```swift
+@IBAction func LaunchLightshowButtonPressed(_ sender: Any) {
+    let initialController = NavigationManager.initialController()
+    initialController.modalPresentationStyle = .fullScreen
+    present(initialController, animated: true)
+}
+```
