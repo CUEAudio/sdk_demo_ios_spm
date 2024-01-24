@@ -1,6 +1,6 @@
 # CUELiveDemoSPM
 
-Here are the instruction how to add CUELive-SPM package to your project. Following these steps one-by-one you will make your own project similar to this demo-project.
+Here are the instructions how to add CUELive SDK SPM-package to your project. Follow these steps one-by-one to make your own project similar to this demo-project.
 
 ## Add the CUELive SDK
 
@@ -77,7 +77,7 @@ First add import-directive to your code file
 import CUELive
 ```
 
-Then add the UIButton object with the following tap handler
+Then add the UIButton object with the following tap handler to start the LightShow
 ```swift
 @IBAction func LaunchLightshowButtonPressed(_ sender: Any) {
     let initialController = NavigationManager.initialController()
