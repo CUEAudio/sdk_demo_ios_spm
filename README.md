@@ -6,15 +6,15 @@ Add the CUELive framework using the Package manager in Xcode. Use the URL: `http
 
 ![](images/xcode-1.png)
 
-Once the dialog for the package manager is opened, search for the CUELive SPM in the search field at the top right. Enter the following URL to help discover the package: `https://github.com/CUEAudio/CUELive-SPM.git`.
+Once the dialog for the package manager is opened, search for the CUELive SPM in the search field at the top right. Enter the following URL to help discover the package: `https://github.com/CUEAudio/CUELive-SPM.git`, select version **3.5.29** or higher.
 
 ![](images/xcode-2.png)
 
-Once the package has been downloaded, specify the Target you wish to add the CUELive SDK to.
+Once the package has been downloaded, press `Add Package` button.
 
 ![](images/xcode-3.png)
 
-You will see the like of installed packages in Project Navigator in the _Package Dependencies_
+You will see the installed packages in Project Navigator in the _Package Dependencies_
 
 ![](images/xcode-4.png)
 
@@ -50,20 +50,20 @@ Please write description texts for the following Info.plist keys:
 
 Result should be looking like that:
 
-![](images/xcode-perm1)
+![](images/xcode-perm1.png)
 
-![](images/xcode-perm2)
+![](images/xcode-perm2.png)
 
 ## Optional explicit usage of Lottie library
 
 In case your project needs to use Lottie library, you can explicitly add link to it to your project
 
-![](images/xcode-lottie1) 
+![](images/xcode-lottie1.png) 
 
 Please keep in mind:
-1. Your app should use exactly 'lottie-spm' package, not other source of Lottie (e.g. lottie-ios).
+1. Your app should use **exactly** `lottie-spm` package, **not other** source of Lottie (e.g. lottie-ios).
 2. Version of Lottie should be 4.0.0 or higher.
 
 Finally your dependencies section should look like this:
  
-![](images/xcode-lottie2)
+![](images/xcode-lottie2.png)
