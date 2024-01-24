@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TriviaSubmitScoreUrl</key>
+	<string>https://live.cueaudio.com/v1/Ranker/scoreFromDevice</string>
+	<key>TriviaGetRankUrl</key>
+	<string>https://live.cueaudio.com/v1/Ranker/getScoreAndRank</string>
+	<key>TriviaUserDetailsUrl</key>
+	<string>https://live.cueaudio.com/v1/Ranker/userDetails</string>
+	<key>VideoBoardUrl</key>
+	<string>https://live.cueaudio.com/v1/SelfieCam/share-to-videoboard/</string>
+	<key>EndPointUrl</key>
+	<string>https://live.cueaudio.com/v1/Services/</string>
+</dict>
+</plist>

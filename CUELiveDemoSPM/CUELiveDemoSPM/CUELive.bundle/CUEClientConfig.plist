@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientId</key>
+	<string>CUE</string>
+	<key>apiKey</key>
+	<string>TQeAwPHVnLwJrs5HEWvSmphO9D2dDeHc</string>
+	<key>primaryColor</key>
+	<string>#00AEFF</string>
+	<key>secondaryColor</key>
+	<string>#ffffff</string>
+	<key>generalTextColor</key>
+	<string>#ffffff</string>
+	<key>preferredFontPostScriptName</key>
+	<string>HelveticaNeue-Light</string>
+	<key>hasExit</key>
+	<true/>
+	<key>hasExitOnHomescreen</key>
+	<false/>
+	<key>hasBackgroundImage</key>
+	<false/>
+	<key>shouldShowNotificationOnboarding</key>
+	<false/>
+	<key>usesCueBroadcastClient</key>
+	<false/>
+	<key>cueBroadcastServiceUuid</key>
+	<string>0001</string>
+	<key>usesMicrophone</key>
+	<true/>
+</dict>
+</plist>
