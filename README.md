@@ -90,7 +90,7 @@ Then add the UIButton object with the following tap handler to start the LightSh
 
 You can pass optional PRIVACY flag to prevent collecting and sending to the server any user information. SDK initialization in this case looks like that:
 
-```
+```swift
     @IBAction func launchLightShowGUI(_ sender: Any) {
         let params: NSDictionary = ["PRIVACY":true]
         let initialController = NavigationManager.initialController(extraData: params)
