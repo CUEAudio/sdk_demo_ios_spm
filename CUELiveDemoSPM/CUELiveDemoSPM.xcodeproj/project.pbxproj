@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		527855FC2C8F3F1F00B33B0F /* CUELive in Frameworks */ = {isa = PBXBuildFile; productRef = 527855FB2C8F3F1F00B33B0F /* CUELive */; };
 		52B94FF02B60F970007955E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94FEF2B60F970007955E3 /* AppDelegate.swift */; };
 		52B94FF22B60F970007955E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94FF12B60F970007955E3 /* SceneDelegate.swift */; };
 		52B94FF42B60F970007955E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B94FF32B60F970007955E3 /* ViewController.swift */; };
 		52B94FF72B60F970007955E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B94FF52B60F970007955E3 /* Main.storyboard */; };
 		52B94FF92B60F975007955E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B94FF82B60F975007955E3 /* Assets.xcassets */; };
 		52B94FFC2B60F975007955E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B94FFA2B60F975007955E3 /* LaunchScreen.storyboard */; };
-		52B950052B610421007955E3 /* CUELive in Frameworks */ = {isa = PBXBuildFile; productRef = 52B950042B610421007955E3 /* CUELive */; };
 		52B950082B61054F007955E3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 52B950072B61054F007955E3 /* Lottie */; };
 		52B9500A2B6106F1007955E3 /* CUELive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52B950092B6106F1007955E3 /* CUELive.bundle */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B950052B610421007955E3 /* CUELive in Frameworks */,
+				527855FC2C8F3F1F00B33B0F /* CUELive in Frameworks */,
 				52B950082B61054F007955E3 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,8 +91,8 @@
 			);
 			name = CUELiveDemoSPM;
 			packageProductDependencies = (
-				52B950042B610421007955E3 /* CUELive */,
 				52B950072B61054F007955E3 /* Lottie */,
+				527855FB2C8F3F1F00B33B0F /* CUELive */,
 			);
 			productName = CUELiveDemoSPM;
 			productReference = 52B94FEC2B60F970007955E3 /* CUELiveDemoSPM.app */;
@@ -123,8 +123,8 @@
 			);
 			mainGroup = 52B94FE32B60F970007955E3;
 			packageReferences = (
-				52B950032B610421007955E3 /* XCRemoteSwiftPackageReference "CUELive-SPM" */,
 				52B950062B61054F007955E3 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				527855FA2C8F3F1F00B33B0F /* XCRemoteSwiftPackageReference "CUELive-SPM" */,
 			);
 			productRefGroup = 52B94FED2B60F970007955E3 /* Products */;
 			projectDirPath = "";
@@ -403,12 +403,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		52B950032B610421007955E3 /* XCRemoteSwiftPackageReference "CUELive-SPM" */ = {
+		527855FA2C8F3F1F00B33B0F /* XCRemoteSwiftPackageReference "CUELive-SPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CUEAudio/CUELive-SPM.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.5.29;
+				minimumVersion = 3.5.33;
 			};
 		};
 		52B950062B61054F007955E3 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
@@ -422,9 +422,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		52B950042B610421007955E3 /* CUELive */ = {
+		527855FB2C8F3F1F00B33B0F /* CUELive */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 52B950032B610421007955E3 /* XCRemoteSwiftPackageReference "CUELive-SPM" */;
+			package = 527855FA2C8F3F1F00B33B0F /* XCRemoteSwiftPackageReference "CUELive-SPM" */;
 			productName = CUELive;
 		};
 		52B950072B61054F007955E3 /* Lottie */ = {
