@@ -70,6 +70,12 @@ Finally your dependencies section should look like this:
  
 ![](images/xcode-lottie2.png)
 
+## Associated Domains
+
+In your project settings, you should add two Associated Domains as shown here:
+
+<img width="771" height="150" alt="Screenshot 2025-10-06 at 12 07 52 PM" src="https://github.com/user-attachments/assets/fcae6cf8-fcd2-4802-8fde-d8780d7cb984" />
+
 ## How to call CUELive library from your code
 
 First add import-directive to your code file
